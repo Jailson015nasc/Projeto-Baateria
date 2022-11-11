@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./iconmonn/png/headphones.png">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Bateria do saymon</title>
+</head>
+<body>
+    <!-- TITULO DA PAGINA  -->
+    <h1>Bateria Feita no SESI-SENAI</h1>
+    <!-- INICIO DA CAIXA PRINCIPAL DA BATERIA -->
+    <div class="keys">
+        <!-- INICIO DIV PRIMEIA FILEIRA  -->
+        <div class="key"data-key="keyq">Q</div>
+        <div class="key"data-key="keyw">W</div>
+        <div class="key"data-key="keye">E</div>
+    <!-- FIM DA DIV PRIMEIRA FILEIRA  -->
+    
+    <!-- INIICO DA TERCEIRA DIV FILEIRA  -->
+
+        <div class="key"data-key="keya">A</div>
+        <div class="key"data-key="keys">S</div>
+        <div class="key"data-key="keyd">D</div>
+     <!-- FIM DA SEGUNDA DIV FILEIRA -->
+
+     <!-- INICIO DA TERCEIRA DIV FILEIRA -->
+        <div class="key"data-key="keyz">Z</div>
+        <div class="key"data-key="keyx">X</div>
+        <div class="key"data-key="keyc">C</div>
+        <!-- FIM DA TERCEIRA DIV FILEIRA -->
+  
+    </div>
+   <!-- FIM DA CAIXA PRINCIPALDA BATERIA  -->
+    
+   <!-- INICIO CAIXA SEGUNDARIA - COMPOSIÇÕES -->
+   <div class="composer">
+       <!-- INICIO DA CAIXA PARA INSERIR COMPOSIÇÕES -->
+       <input type="text"id="input"placeholder="Faça sua composição">
+       <!--  -->
+       
+       <!-- BOTÃO DE ENVIAR COMPOSIÇÕES -->
+       <button>Aplicar o ritmo</button>
+   </div>
+      <!-- FIM CAIXA SEGUNDARIA - COMPOSIÇÕES -->
+
+      <!-- RODAPE CAIXA DO FOOTER -->
+
+      <footer>Desenvolvido Jailson Nasc</footer>
+      <!-- FIM RODAPE CAIXA DO FOOTER -->
+
+      <!-- TAG DE AUDIO - IRAO COMUNICAR COM JS -->
+    
+      <!-- INICIO TAG DE AUDIO DA PRIMEIRA FILEIRA -->
+      <audio src="./sounds/keyq.wav"id="s_keyq"></audio>
+      <audio src="./sounds/keyw.wav"id="s_keyw"></audio>
+      <audio src="./sounds/keye.wav"id="s_keye"></audio>
+      <!-- FIM TAG DE AUDIO DA PRIMEIRA FILEIRA  -->
+
+      <!-- INICIO TAG DE AUDIO DA SEGUNDA FILEIRA -->
+      <audio src="./sounds/keya.wav"id="s_keya"></audio>
+      <audio src="./sounds/keys.wav"id="s_keys"></audio>
+      <audio src="./sounds/keyd.wav"id="s_keyd"></audio>
+      <!-- FIM TAG DE AUDIO DA SEGUNDA FILEIRA -->
+
+      <!-- INICIO TAG DE AUDIO DA TERCEIRA FILEIRA  -->
+      <audio src="./sounds/keyz.wav"id="s_keyz"></audio>
+      <audio src="./sounds/keyx.wav"id="s_keyx"></audio>
+      <audio src="./sounds/keyc.wav"id="s_keyc"></audio>
+       <!-- FIM TAG DE AUDIO DA TERCEIRA FILEIRA -->
+
+       <!-- LINK DO JAVASCRIPT -->
+       <script src="javascript/script.js"></script>
+    </body>
+</html>
